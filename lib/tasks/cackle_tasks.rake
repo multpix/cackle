@@ -51,7 +51,7 @@ namespace :cackle do
   desc 'Initial comment base load'
   task import: :environment do
     CackleComment.delete_all
-    path = build_config
+    path = build_path
     begin 
       max      = CackleComment.maximum('created_at')
       url     = max ? path + "&modified=#{max.to_i*1000}" : path
