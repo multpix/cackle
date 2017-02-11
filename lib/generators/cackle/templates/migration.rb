@@ -1,4 +1,4 @@
-class CreateCackleComments < ActiveRecord::Migration
+class CreateCackleComments < ActiveRecord::Migration[5.0]
   def change
     create_table :cackle_comments, id: false do |t|
       t.integer  :comment_id
