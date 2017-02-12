@@ -14,7 +14,7 @@ Installation
 
 Add to Gemfile 
 ```ruby
-gem 'cackle', github: 'iRet/cackle'
+gem 'cackle', github: 'multpix/cackle'
 ```
 
 Generate and run migration
