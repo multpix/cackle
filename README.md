@@ -67,6 +67,6 @@ rake cackle:fetch
 
 License
 -------
-Forked from iRet/cackle
+Forked from [iRet/cackle](https://github.com/iRet/cackle)
 
 This project rocks and uses MIT-LICENSE.
